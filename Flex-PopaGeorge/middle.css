@@ -1,0 +1,69 @@
+.flex-container-title{
+
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    font-size:18px;
+    font-weight:bolder !important;
+
+
+}
+.flex-container {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: black 2px solid;
+    width: 30% ;
+    border-color: dodgerblue;
+    position:absolute;
+    right: 170px;
+    bottom: 200px;
+
+
+
+}
+
+
+.item{
+
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    max-height: 100vh;
+    font-weight: normal !important;
+
+}
+
+
+.item-title{
+    display:flex;
+    flex-wrap:wrap;
+    allign-items:flex-start;
+    flex-direction:column;
+    max-height:100vh;
+    font-size: 17px;
+    font-weight: 900;
+
+}
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: dodgerblue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
