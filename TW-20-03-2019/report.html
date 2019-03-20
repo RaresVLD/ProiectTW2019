@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formular</title>
+    <link rel="stylesheet" type="text/css" href="./design/report.css" />
+</head>
+<body>
+
+<div class="container">
+    <div class="report-title">
+        Plangere
+    </div>
+    <form action="./index.html" method="get">
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">Nume</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Nume...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Prenume</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Prenume...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="mail">Email</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="mail" name="e-mail" placeholder="Email..">
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Tara</label>
+            </div>
+            <div class="col-75">
+                <select id="country" name="country">
+                    <option value="romania">Romania</option>
+                    <option value="franta">France</option>
+                    <option value="anglia">England</option>
+                    <option value="germania">Germany</option>
+                    <option value="rusia">Rusia</option>
+                    <option value="polonia">Polonia</option>
+                    <option value="Ungaria">Ungaria</option>
+                    <option value="Ucraina">Ucraina</option>
+                    <option value="Grecia">Grecia</option>
+                    <option value="Cehia">Cehia</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="subject">Plangerea</label>
+            </div>
+            <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Plangerea dumneavoastra..." style="height:200px"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <a href="./index.html">
+                <input type="button" value="Trimite" onclick="alert('Trimis cu succes!')"/>
+            </a>
+
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
