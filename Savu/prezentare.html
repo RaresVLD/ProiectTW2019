@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prezentare Trow</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body {background-color: powderblue;}
+		li {width:90%; 
+			text-align: justify;
+  			text-justify: inter-word;}
+	</style>
+	
+</head>
+<body>
+
+ <h1 style="color:blue;" >SVP - Trow prezentare proiect</h1>
+  <h3>Echipa : Vlaiduc Rares, Popa George, Savu Ilie-Tudor</h3> <br>
+
+  <h2>Ordinea cronologica a dezvoltarii proiectului:</h2>
+  <ol>
+  	<li><h3>Prototipul front-end</h3></li>
+  		<ul>
+  			<li><p>Aici a fost creat si prototipizat designul paginilor web, care pe parcursul dezvoltarii si implementarii functionalitatilor a mai fost modificat, in sensul ca s-au adaugat noi elemente, pentru a mentine responsiveness-ul si pentru a avea suport in front-end pentru back-end.</p></li>
+  		</ul>
+  	<li><h3>Arhitectura aplicatiei</h3></li>
+  		<ul>
+  			<li><p>Pentru aceasta componenta a evaluarii proiectului, s-au realizat diagrame C4,UML si use-case pentru a stabili directia dezvoltarii.</p></li>
+  		</ul>
+  	<li><h3>Dezvoltarea arhitecturii MVC</h3></li>
+    <ul>
+  		<li>Pentru realizarea structurii MVC a proiectului, ne-am inspirat din structurile Laravel si Magento.</li>
+    </ul>
+  		<h4>Model</h4>
+  		<ul>
+  			<li>Model este un obiect ce reprezinta date sau procese. (exemplu: un tabel din baza de date, sau un proces basic)</li>
+  			<li>Model reprezinta logica prin care se fac modificari sau citiri din baza de date.</li>
+  			<li>Model este cea mai low-level din punct de vedere a codului din proiect.</li>
+  		</ul>
+  		<h4>View</h4>
+  		<ul>
+  			<li>View este o vizualizare pentru state-ul unui model.</li>
+  			<li>Acesta se ocupa de output-ul grafic si textual al aplicatiei.</li>
+  			<li>Este responsabil pentru mapping-ul graficii pe un device.</li>
+  		</ul>
+  		<h4>Controller</h4>
+  		<ul>
+  			<li>Controller ofera calea de acces catre Model.</li>
+  			<li>Acesta reprezinta modul prin care un user interactioneaza cu aplicatia.</li>
+  		</ul>
+  	<li><h3>Implementarea functionalitatilor</h3></li>
+  		<ol>
+  			<li>Anunturi</li>
+          <ul>
+            <li>Se iau din baza de date anunturi si sunt afisate pe site.</li>
+          </ul>
+        <li>FAQ</li>
+        <ul>
+          <li>Afiseaza din baza de date datele FAQ.</li>
+        </ul>
+  			<li>Detalii trenuri</li>
+          <ul>
+            <li>Sistem de caching pentru fisierul XML.</li>
+          </ul>
+  			<li>Admin</li>
+          <ul>
+            <li>Poate adauga anunturi si FAQ.</li>
+          </ul>
+  			<li>Calatorii</li>
+          <ul>
+            <li>Modelam un graf in functii de statii si folosim Djikstra pentru gasirea celui mai eficient drum.</li>
+          </ul>
+  			<li>Compararea pe ani</li>
+          <ul>
+            <li>Schimbam anul datelor XML.</li>
+          </ul>
+  			<li>Utilizarea Unsplash API</li>
+        <ul>
+          <li>Pentru imagini in functie de locatie.</li>
+        </ul>
+  		</ol>
+
+
+  </ol>
+
+
+</body>
+</html>
